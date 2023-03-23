@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+}
+
+.card{
+    boder-radius : 20px;
+    margin-left : 10px;
+    height : 200px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+background-color: rgb(100, 28, 28); /* Le fond de la page sera noir */
+}
